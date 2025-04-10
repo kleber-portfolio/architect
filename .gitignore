@@ -1,0 +1,25 @@
+# Diretório interno do Terraform (plugins, cache, etc.)
+.terraform/
+
+# Arquivos de estado e backups
+*.tfstate
+*.tfstate.backup
+
+# Arquivos de plano
+*.tfplan
+
+# Logs e saídas locais
+crash.log
+terraform.tfvars
+terraform.tfvars.json
+
+# Sensíveis (recomendado não subir)
+*.pem
+*.key
+*.crt
+
+# Editor/IDE configs (opcional)
+.vscode/
+.idea/
+*.swp
+.DS_Store
